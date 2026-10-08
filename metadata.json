@@ -1,0 +1,6 @@
+{
+  "name": "Shree Devi Institute of Technology",
+  "description": "Modern institutional portal for Shree Devi Institute of Technology (SDIT), Kenjar, Mangaluru — featuring academic programs, admissions, placement analytics, campus facilities, and role-based student, faculty, and administrator portals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

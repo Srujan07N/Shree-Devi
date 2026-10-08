@@ -1,0 +1,187 @@
+import { StudentRecord, AdmissionApplication } from '../types';
+
+export const initialStudentsData: StudentRecord[] = [
+  {
+    id: 'std-1',
+    usn: '4SD23CS042',
+    name: 'Aravind S. Rao',
+    email: 'student@sdit.demo', // default student demo user
+    phone: '+91 98450 12345',
+    department: 'Computer Science & Engineering',
+    program: 'B.E. Computer Science & Engineering',
+    semester: 7,
+    cgpa: 8.75,
+    attendance: 91,
+    status: 'Active',
+    admissionYear: 2023,
+    placementStatus: 'Placed'
+  },
+  {
+    id: 'std-2',
+    usn: '4SD23CS088',
+    name: 'Pooja Hegde',
+    email: 'pooja.hegde@sdit.demo',
+    phone: '+91 98450 23456',
+    department: 'Computer Science & Engineering',
+    program: 'B.E. Computer Science & Engineering',
+    semester: 7,
+    cgpa: 9.12,
+    attendance: 94,
+    status: 'Active',
+    admissionYear: 2023,
+    placementStatus: 'Placed'
+  },
+  {
+    id: 'std-3',
+    usn: '4SD23AI014',
+    name: 'Nikhil Shetty',
+    email: 'nikhil.shetty@sdit.demo',
+    phone: '+91 98450 34567',
+    department: 'Computer Science & Engineering (AI & ML)',
+    program: 'B.E. Computer Science & Engineering (AI & ML)',
+    semester: 5,
+    cgpa: 8.45,
+    attendance: 88,
+    status: 'Active',
+    admissionYear: 2024,
+    placementStatus: 'In Process'
+  },
+  {
+    id: 'std-4',
+    usn: '4SD23EC029',
+    name: 'Sneha Kamath',
+    email: 'sneha.kamath@sdit.demo',
+    phone: '+91 98450 45678',
+    department: 'Electronics & Communication Engineering',
+    program: 'B.E. Electronics & Communication Engineering',
+    semester: 7,
+    cgpa: 8.60,
+    attendance: 89,
+    status: 'Active',
+    admissionYear: 2023,
+    placementStatus: 'Placed'
+  },
+  {
+    id: 'std-5',
+    usn: '4SD23IS018',
+    name: 'Rohan D\'Souza',
+    email: 'rohan.dsouza@sdit.demo',
+    phone: '+91 98450 56789',
+    department: 'Information Science & Engineering',
+    program: 'B.E. Information Science & Engineering',
+    semester: 5,
+    cgpa: 7.92,
+    attendance: 84,
+    status: 'Active',
+    admissionYear: 2024,
+    placementStatus: 'Registered'
+  },
+  {
+    id: 'std-6',
+    usn: '4SD23ME009',
+    name: 'Vikram Nayak',
+    email: 'vikram.nayak@sdit.demo',
+    phone: '+91 98450 67890',
+    department: 'Mechanical Engineering',
+    program: 'B.E. Mechanical Engineering',
+    semester: 7,
+    cgpa: 8.10,
+    attendance: 87,
+    status: 'Active',
+    admissionYear: 2023,
+    placementStatus: 'In Process'
+  },
+  {
+    id: 'std-7',
+    usn: '4SD23CV012',
+    name: 'Ananya Sharma',
+    email: 'ananya.sharma@sdit.demo',
+    phone: '+91 98450 78901',
+    department: 'Civil Engineering',
+    program: 'B.E. Civil Engineering',
+    semester: 5,
+    cgpa: 8.35,
+    attendance: 92,
+    status: 'Active',
+    admissionYear: 2024,
+    placementStatus: 'Registered'
+  },
+  {
+    id: 'std-8',
+    usn: '4SD23AE005',
+    name: 'Karthik Bhat',
+    email: 'karthik.bhat@sdit.demo',
+    phone: '+91 98450 89012',
+    department: 'Aeronautical Engineering',
+    program: 'B.E. Aeronautical Engineering',
+    semester: 7,
+    cgpa: 8.85,
+    attendance: 90,
+    status: 'Active',
+    admissionYear: 2023,
+    placementStatus: 'Seeking Higher Studies'
+  }
+];
+
+export const initialAdmissionsData: AdmissionApplication[] = [
+  {
+    id: 'app-101',
+    applicantName: 'Tanvi Shirodkar',
+    email: 'tanvi.shirodkar@gmail.com',
+    phone: '+91 94480 11223',
+    programChoice: 'B.E. Computer Science & Engineering',
+    qualifyingExam: 'KCET Rank: 14,210',
+    percentageOrRank: '92.4% in 12th PCM',
+    status: 'Approved',
+    appliedDate: '2026-09-12',
+    documentsVerified: true
+  },
+  {
+    id: 'app-102',
+    applicantName: 'Aditya K. Verma',
+    email: 'aditya.verma@yahoo.com',
+    phone: '+91 94480 22334',
+    programChoice: 'B.E. Computer Science (AI & ML)',
+    qualifyingExam: 'COMEDK Rank: 18,900',
+    percentageOrRank: '88.6% in 12th PCM',
+    status: 'Under Review',
+    appliedDate: '2026-09-18',
+    documentsVerified: true
+  },
+  {
+    id: 'app-103',
+    applicantName: 'Deepak Mendonca',
+    email: 'deepak.m@gmail.com',
+    phone: '+91 94480 33445',
+    programChoice: 'Master of Business Administration (MBA)',
+    qualifyingExam: 'PGCET Rank: 2,410',
+    percentageOrRank: '76.8% in B.Com',
+    status: 'Pending',
+    appliedDate: '2026-09-25',
+    documentsVerified: false
+  },
+  {
+    id: 'app-104',
+    applicantName: 'Meghana R. Prabhu',
+    email: 'meghana.prabhu@outlook.com',
+    phone: '+91 94480 44556',
+    programChoice: 'B.E. Electronics & Communication',
+    qualifyingExam: 'KCET Rank: 22,340',
+    percentageOrRank: '85.2% in 12th PCM',
+    status: 'Approved',
+    appliedDate: '2026-09-28',
+    documentsVerified: true
+  },
+  {
+    id: 'app-105',
+    applicantName: 'Sanjay Gowda',
+    email: 'sanjay.gowda@gmail.com',
+    phone: '+91 94480 55667',
+    programChoice: 'B.E. Aeronautical Engineering',
+    qualifyingExam: 'KCET Rank: 26,100',
+    percentageOrRank: '81.0% in 12th PCM',
+    status: 'Waitlisted',
+    appliedDate: '2026-10-01',
+    documentsVerified: false
+  }
+];
